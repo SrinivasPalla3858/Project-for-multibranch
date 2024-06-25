@@ -15,6 +15,7 @@ pipeline {
 	  ps
 	  git --version
 	  git branch
+	  java -version
         '''
 
       }
