@@ -4,14 +4,15 @@ pipeline {
 
   stages {
 
-    stage('Hello') {
+    stage('build') {
 
       steps {
 
         sh '''
 
-          java -version
-
+          ls -ltr
+	  free -h
+	  ps
         '''
 
       }
