@@ -13,6 +13,8 @@ pipeline {
           ls -ltr
 	  free -h
 	  ps
+	  git --version
+	  git branch
         '''
 
       }
